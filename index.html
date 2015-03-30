@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Ahorcado</title>
+		<style type="text/css">
+	body{
+		background: #ADD8E6;
+		color: #9400D3;
+		text-align: center;
+	}
+	</style>
+	<script type="text/javascript" src="ahorcado.js"></script>
+</head>
+<body>
+	<h1>Salvame!!!</h1>
+	<p>Encuentra una letra a la vez:
+		<input type="text" id="letra" />
+		<input type="button" id="boton" value="Enter" />
+		<input type="button" id="btnInicio" value="Iniciar" disabled/>
+	</p>
+	<h2 id="pista">_ _ _ _ _ _ _ </h2>	
+	<canvas id="c"></canvas>
+	<script type="text/javascript">iniciar();</script>
+</body>
+</html>
